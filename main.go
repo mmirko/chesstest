@@ -19,7 +19,7 @@ func main() {
 		fmt.Println(game.Position().Board())
 		game.Move(move)
 	}
-	// print outcome and game PGN
+	// print outcome and game PGN e
 	fmt.Println(game.Position().Board().Draw())
 	fmt.Printf("Game completed. %s by %s.\n", game.Outcome(), game.Method())
 	fmt.Println(game.String())
